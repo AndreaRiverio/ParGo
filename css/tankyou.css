@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+.redeSocial img{
+    width: 1%;
+    padding-right: 6px;
+}
+.redeSocial p{
+    padding-right: 40px;
+}
+.fundoThankyou{
+    width: 100%;
+    min-height: 657px;
+    background: url('./../img/imgFundo.png') 0% 0% no-repeat padding-box;
+}
+.tankyou{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+}
+.textThankyou{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+    font-family: Assistant;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 44px;
+    color: #333333;
+    text-align: center;
+}
+.textThankyou p:nth-child(1){
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    color: #333333;
+    padding-bottom: 40px;
+}
+.redeSocial{
+    min-height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    margin-top: 10px;
+}
+.redeSocial img{
+    width: 2.5%;
+    padding-right: 6px;
+}
+.redeSocial p{
+    padding-right: 40px;
+}

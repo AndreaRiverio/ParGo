@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+.titlePage{
+    min-height: 50px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.titlePage img{
+    width: 13%;
+}
+main{
+    background: linear-gradient(359.77deg, rgba(255, 255, 255, 0.96) 38.54%, rgb(51, 51, 51) 392.87%);
+    display: flex;
+    justify-content: space-around;
+
+}
+.colunmLeft{
+    width: 40%;
+    padding-top: 34px;
+    padding-left: 60px;
+}
+.colunmLeft h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    align-items: center;
+    text-align: justify;
+}
+.colunmLeft h1 span{
+    color: #36D689;
+}
+.colunmLeft p{
+    width: 75%;
+    padding-top: 15px;
+    font-family: 'Assistant';
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    align-items: center;
+    color: #454545;
+}
+.colunmLeft p:nth-child(1){
+    width: 92%;
+}
+.colunmRight{
+    width: 35%;
+    padding-top: 90px;
+    
+}
+.colunmRight img{
+    margin-left: -100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    width: 60%;
+    padding: 10px 14px;
+    margin: 8px 0px;
+    background: rgba(51, 51, 51, 0.15);
+    border: 1px solid rgba(51, 51, 51, 0.15);
+    box-sizing: border-box;
+    border-radius: 42px;
+    font-family: 'Assistant';
+    font-size: 16px;
+}
+.registerForm{
+    width: 55%;
+    box-shadow: 0px 6px 20px rgba(15, 169, 123, 0.15);
+    background: #36D689;
+    border-radius: 29px;
+    color: #fff;
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 14px;
+    align-items: center;
+    transition: 1s;
+    margin: 8px 0px;
+    text-align: center;
+}
+.registerForm:hover{
+    font-size: 18px;
+}
+.redeSocial{
+    min-height: 45px;
+    background: linear-gradient(179.56deg, rgba(255, 255, 255, 0.94) -1582.36%, rgba(218, 218, 218, 0.94) 1145.5%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    margin-top: 10px;
+}
+.redeSocial img{
+    width: 1%;
+    padding-right: 6px;
+}
+.redeSocial p{
+    padding-right: 40px;
+}
+
